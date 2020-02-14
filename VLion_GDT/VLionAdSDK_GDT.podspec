@@ -14,9 +14,11 @@ Pod::Spec.new do |spec|
   #  can feel like a chore to fill in it's definitely to your advantage. The
   #  summary should be tweet-length, and the description more in depth.
   #
+  name = "VLionAdSDK_GDT"
+  version = "0.0.1"
 
-  spec.name         = "VLionAdSDK_GDT"
-  spec.version      = "0.0.1"
+  spec.name         = name
+  spec.version      = version
   spec.summary      = "瑞狮广告IOS SDK"
 
   # This description is used to generate tags and improve search results.
@@ -80,7 +82,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/jasonz1987/VLionADSDK-IOS.git", :tag => "#{spec.version}" }
+  spec.source = { :http => "http://file.jason-z.com/#{name}-#{version}.zip" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
